@@ -2,6 +2,8 @@
 const msgDisplay = document.getElementById("msg-display");
 const resultDisplay = document.getElementById("result-display");
 const resetBtn = document.getElementById("reset");
+const player = document.getElementById("player");
+const computer = document.getElementById("computer");
 
 let playerScore = 0;
 let computerScore = 0;
@@ -34,6 +36,7 @@ function playGame(playerPick){
         playerScore++;
         resultDisplay.textContent = `${playerScore} - ${computerScore}`;
     }
-
+    player.textContent = playerPick
+    computer.textContent = computerPick
 
 }

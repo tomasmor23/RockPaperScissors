@@ -40,3 +40,11 @@ p {
 #result-display {
     margin-top: -10px;
 }
+
+#picks {
+    display: flex;
+}
+
+#player {
+    margin-right: 30px;
+}
